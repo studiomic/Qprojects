@@ -17,7 +17,11 @@
 				{ "name": "System",    "slug": "system",    "fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif" },
 				{ "name": "Serif",     "slug": "serif",     "fontFamily": "Constantia, \"Lucida Bright\", Lucidabright, \"Lucida Serif\", Lucida, \"DejaVu Serif\", \"Bitstream Vera Serif\", \"Liberation Serif\", Georgia, serif" },
 				{ "name": "Monospace", "slug": "monospace", "fontFamily": "Consolas, \"Andale Mono WT\", \"Andale Mono\", \"Lucida Console\", \"Lucida Sans Typewriter\", \"DejaVu Sans Mono\", \"Bitstream Vera Sans Mono\", \"Liberation Mono\", \"Nimbus Mono L\", Monaco, \"Courier New\", Courier, monospace" },
-				{ "name": "Literata",  "slug": "literata",  "fontFamily": "Literata, Constantia, \"Lucida Bright\", Lucidabright, \"Lucida Serif\", Lucida, \"DejaVu Serif\", \"Bitstream Vera Serif\", \"Liberation Serif\", Georgia, serif" }
+				{ "name": "Literata",  "slug": "literata",  "fontFamily": "Literata, Constantia, \"Lucida Bright\", Lucidabright, \"Lucida Serif\", Lucida, \"DejaVu Serif\", \"Bitstream Vera Serif\", \"Liberation Serif\", Georgia, serif" },
+				{ "name": "Georgia",  "slug": "georgia",  "fontFamily": "Georgia, serif" },
+				{ "name": "Helvetica",  "slug": "helvetica",  "fontFamily": "HelveticaNeue-Light, \"Helvetica Neue Light\", \"Helvetica Neue\",sans-serif" }
+
+
 			],
 			"fontStyles": [
 				{ "name": "Regular", "slug": "normal", "value": "normal" },
@@ -127,6 +131,17 @@
 	},
 	"templateParts": [
 		{ "name": "header", "area": "header" },
-		{ "name": "footer", "area": "footer" }
+		{ "name": "footer", "area": "footer" },
+		{
+			"name": "header-minimal",
+			"title": "header-minimal",
+			"area": "header"
+		},
+		{
+			"name": "footer-nav",
+			"title": "footer-nav",
+			"area": "header"
+		}
+
 	]
 }

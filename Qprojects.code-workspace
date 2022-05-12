@@ -4,5 +4,13 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"workbench.panel.defaultLocation": "right",
+		"workbench.sideBar.location": "right",
+		"terminal.integrated.confirmOnExit": "always",
+		"workbench.colorTheme": "Iceberg Light",
+		"workbench.preferredDarkColorTheme": "Iceberg",
+		"workbench.iconTheme": "material-icon-theme",
+		"liveServer.settings.multiRootWorkspaceName": "Qprojects"
+	}
 }
