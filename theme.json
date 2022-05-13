@@ -137,8 +137,8 @@
 		},
 		{
 			"name": "footer-nav",
-			"title": "footer-nav",
-			"area": "header"
+			"title": "footer:(on nav)",
+			"area": "footer"
 		}
 
 	]
